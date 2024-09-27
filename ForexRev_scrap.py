@@ -70,4 +70,4 @@ today = date.today()
 # Save the data to a CSV file
 df.to_csv(f'Warning_List{today}.csv', index=False)
 
-print(f"Data scraped, cleaned, and saved to ForexRev_Warning_List{today}.csv")
+print(f"Data scraped, cleaned, and saved to Warning_List{today}.csv")
